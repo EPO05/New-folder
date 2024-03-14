@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333333fa;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 3;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my Website</h1>
+        <p>Explore the world of Infrustructure, planets, and shoes</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my website! Explore amazing images related to different topics that have been been picked out for you.</p>
+        <a href="https://images.pexels.com/photos/4053441/pexels-photo-4053441.jpeg?auto=compress&cs=tinysrgb&w=600"><img src="Road network" alt="Road network system" /></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>This section explores different planets and their distinctive pictorial representations.</p>
+        <div class="gallery">
+            <a href="https://images.pexels.com/photos/13229275/pexels-photo-13229275.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="pexels-photo-13229275" alt="This is planet Jupiter" /></a>
+            <a href="https://images.pexels.com/photos/12498805/pexels-photo-12498805.jpeg"><img src="pexels-photo-12498805" alt="This is planet Saturn" /></a>
+            <a href="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg"><img src="earth-blue-planet" alt="This is planet Earth" /></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>I would like to list some of the best shoes in the market that I would recommend you to try out.</p>
+        <ul>
+            <li><a href="https://images.pexels.com/photos/3602449/pexels-photo-3602449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="Heeled shoe" alt="This is a heeled shoe Image" /></a> <em>Heeled shoe</em></li>
+            <li><a href="https://images.pexels.com/photos/186035/pexels-photo-186035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"><img src="boat shoes" alt="This is a boat shoe Image" /></a> <em>Boat shoe</em></li>
+            <li><a href="https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg?auto=compress&cs=tinysrgb&w=600"><img src="Jordans" alt="This is a Jordans shoe image" /></a> <em>Jordans shoe</em></li>
+        </ul>
+    </section>
+</section>
+
+<footer>
+    &copy; 2024 Image Links
+</body>
+
+</html>
